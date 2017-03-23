@@ -60,7 +60,7 @@ function fetchUser(){
     for(var i in arrPos){
       console.log(arrPos[i]);
       if(arrPos[i].firstName===document.getElementById("firstName").value && arrPos[i].password===document.getElementById("loginPassword").value ){
-        console.log("hiiiiiiiii...........");
+        console.log("hiiiiiiiii.........");
         //welcomePage();
         alert("Log-in Successfull..");
         break;
